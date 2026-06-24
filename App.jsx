@@ -24,10 +24,11 @@ function App() {
 }
 
 const styles = StyleSheet.create({
-   container: {
+  container: {
     flex: 1,
-    justifyContent:'center',
-    alignItems:'center'
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#4e84d4ff',
   },
 });
 

@@ -18,7 +18,7 @@ export default function Matches() {
   }
   return (
     <View>
-      <Text style={styles.txt}>Hello this is my screen</Text>
+      <Text style={styles.txt}>MATCH SCREEN</Text>
     </View>
   );
 }
@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
   },
   txt: {
     fontSize: 24,
-    color: 'white',
+    color:"#ffffffff",
+    fontWeight:500,
   },
 });
